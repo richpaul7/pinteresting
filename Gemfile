@@ -15,10 +15,9 @@ end
 
 group :product do
 	gem 'pg'
-	gen 'rails_12factor'
+	gem 'rails_12factor'
 end
 
-group :doc do
-  # bundle exec rake doc:rails generates the API under doc/api.
+group :doc do  
   gem 'sdoc', require: false
 end
